@@ -1,6 +1,6 @@
 #include <ESP32Servo.h>  // ESP32用のサーボライブラリ
 #include <Arduino.h>
-int currentAngle =45;        // サーボの初期角度
+int currentAngle =20;        // サーボの初期角度
 extern Servo gyoukakuServo; // 外部から参照
 
 void movegyoukakuServoBy(int delta) {

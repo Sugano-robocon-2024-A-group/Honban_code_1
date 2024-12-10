@@ -73,7 +73,7 @@ soutenServo.write(45);  // 初期位置を20度（中央）に設定
 
 //仰角用サーボピン初期設定
 gyoukakuServo.attach(gyoukaku_servoPin);  // サーボピンを設定
-gyoukakuServo.write(45);  // 初期位置を20度（中央）に設定
+gyoukakuServo.write(20);  // 初期位置を20度（中央）に設定
 
   const int CAN_TX_PIN = 27;  // 送信ピン（GPIO27）
   const int CAN_RX_PIN = 26;  // 受信ピン（GPIO26）Serial.println("CAN Communication");
