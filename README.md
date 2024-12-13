@@ -4,6 +4,8 @@
 ## 作成・許諾
 Sugano Robocon Aチーム (Masda, Otani, Suzaki, Fujiue)  
 
+##(ここに例の文を入れる）##
+
 ## 制御主担当・ReadMe初期文文責
 Otani
 
