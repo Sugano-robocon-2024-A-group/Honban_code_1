@@ -5,8 +5,8 @@
 Sugano Robocon Aチーム (Masda, Otani, Suzaki, Fujiue)  
 
 ##(ここに例の文を入れる）##
-## 制御主担当・ReadMe初期文文責
-Otani
+## 制御主担当・ReadMe初期文文責  Otani
+## 制御副担当　Fujiue
 
 ---
 
@@ -59,8 +59,8 @@ Otani
 
 ---
 
-## 注意事項
-- 機構を変更する場合は、上記以外の使い方も可能。
+## 各ファイル詳細プログラム説明
+- 
 
 ---
 
