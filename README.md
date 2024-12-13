@@ -71,8 +71,8 @@ Sugano Robocon Aチーム (益田隆太郎、大谷卓輝、藤上晃成、洲�
 - gyoukaku.h 仰角系は全てここに入っている。仰角の初期値はこちらにもあるのでお忘れなく！　(これだけヘッダファイルのみの運用）
 
 - PWM.cpp
-- souten.cpp
-  装填のことが入っている（引いて、もう一度コマンドが入ると戻す　引く⇒戻すを、コマンドで行う）（2コマンドで１セット）
+- souten.cpp　装填のことが入っている
+**（引いて、もう一度コマンドが入ると戻す　引く⇒戻すを、コマンドで行う）（2コマンドで１セット）
   Souten_Motor_Speedで装填速度（小さいほど早い）、Souten_Motor_initialAngleで初期角度、Souten_Motor_targetAngleで目標角度設定ができるぞ。
   Souten_Modoshiは、1コマンドで連続してた時は、間のDelayの役回りだったが、今となってはただのDelay。
 - souten.h 「souten.cpp」に対応したヘッダファイル
