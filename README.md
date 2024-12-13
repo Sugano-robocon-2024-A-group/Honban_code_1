@@ -3,8 +3,9 @@
 
 ## 作成・許諾 
 Sugano Robocon Aチーム (Masda, Otani, Suzaki, Fujiue)  
+## * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布及び使用が許可されます
+## @ 2024 Sugano Robocon A team
 
-##(ここに例の文を入れる）##
 ## 制御主担当・ReadMe初期文文責  Otani
 ## 制御副担当　Fujiue
 
