@@ -5,7 +5,6 @@
 Sugano Robocon Aチーム (Masda, Otani, Suzaki, Fujiue)  
 
 ##(ここに例の文を入れる）##
-
 ## 制御主担当・ReadMe初期文文責
 Otani
 
@@ -22,6 +21,12 @@ Otani
   - 非正規品はBluetoothが使用できない場合があるため、正規品の使用を推奨。
 - **書き込みツール**: Arduino Duo
 - **使用コントローラ**: PS4Controller
+
+---
+
+## 使用ライブラリとバージョン
+- **
+- 
 
 ---
 
