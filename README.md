@@ -64,10 +64,16 @@ Sugano Robocon Aチーム (益田隆太郎、大谷卓輝、藤上晃成、洲�
 
 ## 各ファイル詳細プログラム説明
 ### Mechanum_Cross_CAN
-- main.cpp
-- auto.cpp
-- 
-- 
+- **main.cpp**　Mainの関数
+- **tuushin.cpp**　CAN通信用の関数。送信用の設定が入っている　あえて初期の変数を5にしたのは、送れていない時の0と区別するため
+- **tuushin.h**　「tuushin.cpp」に対応したヘッダファイル
+- **auto.cpp**
+- **auto.h**「tuushin.cpp」に対応したヘッダファイル
+- **PS4cross.cpp**
+- **PS4cross.h**　「tuushin.cpp」に対応したヘッダファイル
+- **moter.cpp**
+- **moter.h**　「tuushin.cpp」に対応したヘッダファイル
+- **Jidou_unten.cpp** 没ファイルなので気にしないでください
 ### Toutek_Honbanyou
 - **main.cpp**　Mainの関数
 - **tuushin.cpp**　CAN通信用の関数。受信用の設定が入っている　receivePacketすると反応するようにした。また、向こうのプログラム「Mechanum_Cross_CAN」で通信のきっかけがこないと向こうから通信こないよ。
