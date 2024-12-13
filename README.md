@@ -25,8 +25,12 @@ Otani
 ---
 
 ## 使用ライブラリとバージョン
-- **
-- 
+- **<Arduino.h>**         (ボードでついてくる）Arduino　AVR　Boards  ver.1.8.3
+- **<CAN.h>**               ver.0.3.1
+- **<ESP.h>**
+- ⇒ (ボード) **esp32**  ver.2.0.14  （これが大事）
+- **<ESP32Servo.h>**　　　　ver.3.0.5
+- **<PS4Controller.h>**:別途参照⇒
 
 ---
 
