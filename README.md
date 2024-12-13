@@ -66,16 +66,21 @@ Sugano Robocon Aチーム (益田隆太郎、大谷卓輝、藤上晃成、洲�
 - auto.cpp
 - 
 - **`Toutek_Honbanyou`**
-- main.cpp
-- tuushin.cpp
-- gyoukaku.h 仰角系は全てここに入っている。仰角の初期値はこちらにもあるのでお忘れなく！　(これだけヘッダファイルのみの運用）
+- **main.cpp**
+- **tuushin.cpp**
+- **tuushin.h**
+- **gyoukaku.h** 仰角系は全てここに入っている。(これだけヘッダファイルのみの運用）
+- 仰角の初期値はこちらにもある(int currentAngle)のでお忘れなく！
+- constrain関数で仰角の範囲を制限しているよ　（currentAngle = constrain(currentAngle, -75, 75);　－７５度から７５度まで
+- movegyoukakuServoBy(int delta)は、delta分だけずらす関数。（movegyoukakuServoTo(int delta)は結局使用しなかったが、deltaに仰角を合わせる関数の予定で作った）
 
-- PWM.cpp
-- souten.cpp　装填のことが入っている
-**（引いて、もう一度コマンドが入ると戻す　引く⇒戻すを、コマンドで行う）（2コマンドで１セット）
-  Souten_Motor_Speedで装填速度（小さいほど早い）、Souten_Motor_initialAngleで初期角度、Souten_Motor_targetAngleで目標角度設定ができるぞ。
-  Souten_Modoshiは、1コマンドで連続してた時は、間のDelayの役回りだったが、今となってはただのDelay。
-- souten.h 「souten.cpp」に対応したヘッダファイル
+- **PWM.cpp**
+- **PWM.h**
+- **souten.cpp**　装填のことが入っている
+-（引いて、もう一度コマンドが入ると戻す　引く⇒戻すを、コマンドで行う）（2コマンドで１セット）
+- Souten_Motor_Speedで装填速度（小さいほど早い）、Souten_Motor_initialAngleで初期角度、Souten_Motor_targetAngleで目標角度設定ができるぞ。
+- Souten_Modoshiは、1コマンドで連続してた時は、間のDelayの役回りだったが、今となってはただのDelay。
+- **souten.h** 「souten.cpp」に対応したヘッダファイル
 ---
 
 ## プログラム書き込み手順
