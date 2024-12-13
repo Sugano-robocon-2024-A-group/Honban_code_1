@@ -2,7 +2,7 @@
 # Honban Code 1
 
 ## 作成・許諾 
-## Sugano Robocon Aチーム (Masda, Otani, Suzaki, Fujiue)  
+Sugano Robocon Aチーム (Masda, Otani, Suzaki, Fujiue)  
 
 ##(ここに例の文を入れる）##
 
