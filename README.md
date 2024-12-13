@@ -15,6 +15,8 @@ Sugano Robocon Aチーム (益田隆太郎、大谷卓輝、藤上晃成、洲�
 - **足回り側**: `Mechanum_Cross_CAN`
 - **投擲側**: `Toutek_Honbanyou`
 
+全体システムは、全体のReadmeの方の図を参照あれ
+
 ---
 
 ## 使用媒体
