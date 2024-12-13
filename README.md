@@ -2,7 +2,7 @@
 # Honban Code 1
 
 ## 作成・許諾 
-Sugano Robocon Aチーム (Masda, Otani, Suzaki, Fujiue)  
+Sugano Robocon Aチーム (益田隆太郎、大谷卓輝、藤上晃成、洲﨑一眞)  
 ## * このソフトウェアパッケージは、3条項BSDライセンスの下、再配布及び使用が許可されます
 ## @ 2024 Sugano Robocon A team
 
