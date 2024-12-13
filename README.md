@@ -69,8 +69,8 @@ Sugano Robocon Aチーム (益田隆太郎、大谷卓輝、藤上晃成、洲�
 - 
 - 
 ### Toutek_Honbanyou
-- **main.cpp**
-- **tuushin.cpp**
+- **main.cpp**　Mainの関数
+- **tuushin.cpp**　CAN通信用の関数。受信用の設定が入っている　receivePacketすると反応するようにした。また、向こうのプログラム「Mechanum_Cross_CAN」で通信のきっかけがこないと向こうから通信こないよ。
 - **tuushin.h**
 - **gyoukaku.h** 仰角系は全てここに入っている。(これだけヘッダファイルのみの運用）
 - 仰角の初期値はこちらにもある(int currentAngle)のでお忘れなく！
